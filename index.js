@@ -7,7 +7,7 @@ const PORT = 3000;
 app.get('/api/info', (req, res) => {
     res.json({
         nombre: "Xavi Alexander De León Perdomo",
-        cancion_favorita: "Perdón - Canserbero"
+        album_favorito: "Echoes of Childhood II - DVRST"
     });
 });
 
